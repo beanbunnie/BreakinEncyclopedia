@@ -5,14 +5,17 @@ import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <HashRouter basename="/">
-      {/* <Routes> */}
-      <Route exact path="/" element={<Home />} />
-      <Route path="/Jazz" element={<Jazz />} />
-      <Route path="/Capoeira" element={<Capoeira />} />
-      <Route path="/Kungfu" element={<Kungfu />} />
-      <Route path="/WestAfrican" element={<WestAfrican />} />
-      <Route path="/LindyHop" element={<LindyHop />} />
-      {/* </Routes> */}
+      <Routes>
+        <Route exact path="/BreakinEncyclopedia/" element={<Home />} />
+        <Route path="/BreakinEncyclopedia/Jazz" element={<Jazz />} />
+        <Route path="/BreakinEncyclopedia/Capoeira" element={<Capoeira />} />
+        <Route path="/BreakinEncyclopedia/Kungfu" element={<Kungfu />} />
+        <Route
+          path="/BreakinEncyclopedia/WestAfrican"
+          element={<WestAfrican />}
+        />
+        <Route path="/BreakinEncyclopedia/LindyHop" element={<LindyHop />} />
+      </Routes>
     </HashRouter>
   );
 }
