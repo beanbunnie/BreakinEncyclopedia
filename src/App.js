@@ -7,7 +7,7 @@ function App() {
     <HashRouter basename="/">
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="BreakinEncyclopedia/Jazz" element={<Jazz />} />
+        <Route exact path="Jazz" element={<Jazz />} />
         <Route exact path="/Capoeira" element={<Capoeira />} />
         <Route exact path="/Kungfu" element={<Kungfu />} />
         <Route exact path="/WestAfrican" element={<WestAfrican />} />
