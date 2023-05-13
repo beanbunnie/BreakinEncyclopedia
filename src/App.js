@@ -6,12 +6,12 @@ function App() {
   return (
     <HashRouter basename="/">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Jazz" element={<Jazz />} />
-        <Route path="/Capoeira" element={<Capoeira />} />
-        <Route path="/Kungfu" element={<Kungfu />} />
-        <Route path="/WestAfrican" element={<WestAfrican />} />
-        <Route path="/LindyHop" element={<LindyHop />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/Jazz" element={<Jazz />} />
+        <Route exact path="/Capoeira" element={<Capoeira />} />
+        <Route exact path="/Kungfu" element={<Kungfu />} />
+        <Route exact path="/WestAfrican" element={<WestAfrican />} />
+        <Route exact path="/LindyHop" element={<LindyHop />} />
       </Routes>
     </HashRouter>
   );
