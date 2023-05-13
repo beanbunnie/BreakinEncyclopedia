@@ -1,19 +1,17 @@
-import React from 'react'
+import React from "react";
 
-import { Navbar , Hero, Origins, About, Footer } from '../components';
+import { Navbar, Hero, Origins, About, Footer } from "../components";
 
-const Quotes = () => {
+const Home = () => {
   return (
-        <>
-            <Navbar />
-            <Hero />
-            <Origins />
-            <About />
-            <Footer />
-        </>
+    <>
+      <Navbar />
+      <Hero />
+      <Origins />
+      <About />
+      <Footer />
+    </>
+  );
+};
 
-
-  )
-}
-
-export default Quotes
+export default Home;
