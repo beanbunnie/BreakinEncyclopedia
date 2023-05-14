@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ArrowSmRightIcon } from "@heroicons/react/outline";
-import { Link as NPage } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import danceImg from "../assets/breakdance.jpg";
 
