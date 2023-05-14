@@ -32,7 +32,10 @@ const System = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
           <Link to="/Jazz"> Lets go to jazz</Link>
-          <a className="cursor-pointer hover:drop-shadow-cardHover" to="/Jazz">
+          <Link
+            to="/Jazz"
+            className="cursor-pointer hover:drop-shadow-cardHover"
+          >
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
                 <div className="w-24 p-2 bg-fuchsia-450 text-white rounded-lg mt-[-4rem]">
@@ -55,11 +58,11 @@ const System = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
 
-          <a
+          <Link
+            to="Capoeira"
             className="cursor-pointer hover:drop-shadow-cardHover"
-            to="/Capoeira"
           >
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
@@ -83,11 +86,11 @@ const System = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
 
-          <a
+          <Link
+            to="Kungfu"
             className="cursor-pointer hover:drop-shadow-cardHover"
-            href="/Kungfu"
           >
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
@@ -111,11 +114,11 @@ const System = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
 
-          <a
+          <Link
+            to="WestAfrican"
             className="cursor-pointer hover:drop-shadow-cardHover"
-            href="/WestAfrican"
           >
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
@@ -138,11 +141,11 @@ const System = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
 
-          <a
+          <Link
+            to="LindyHop"
             className="cursor-pointer hover:drop-shadow-cardHover"
-            href="/LindyHop"
           >
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
@@ -165,7 +168,7 @@ const System = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
 
           <Link to="" className="cursor-pointer hover:drop-shadow-cardHover">
             <div className="bg-white rounded-xl shadow-2xl">
