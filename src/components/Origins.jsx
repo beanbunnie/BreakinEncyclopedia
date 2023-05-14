@@ -167,7 +167,7 @@ const System = () => {
             </div>
           </a>
 
-          <Link className="cursor-pointer hover:drop-shadow-cardHover">
+          <Link to="" className="cursor-pointer hover:drop-shadow-cardHover">
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
                 <div className="w-40 p-2 bg-fuchsia-450 text-white rounded-lg mt-[-4rem]">
