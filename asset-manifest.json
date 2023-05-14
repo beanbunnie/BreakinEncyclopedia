@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BreakinEncyclopedia/static/css/main.9abee471.css",
-    "main.js": "/BreakinEncyclopedia/static/js/main.0ff850b8.js",
+    "main.js": "/BreakinEncyclopedia/static/js/main.84e0c1ad.js",
     "static/media/nicholasBrothers.gif": "/BreakinEncyclopedia/static/media/nicholasBrothers.0c9a4d2dc1a956ad07e4.gif",
     "static/media/normamiller.gif": "/BreakinEncyclopedia/static/media/normamiller.c7fe833e3a467e7149c4.gif",
     "static/media/wutangclan.gif": "/BreakinEncyclopedia/static/media/wutangclan.fdff552dd02461267287.gif",
@@ -31,10 +31,10 @@
     "static/media/crazylegs.jpg": "/BreakinEncyclopedia/static/media/crazylegs.a8a3f360834b7ee0141e.jpg",
     "index.html": "/BreakinEncyclopedia/index.html",
     "main.9abee471.css.map": "/BreakinEncyclopedia/static/css/main.9abee471.css.map",
-    "main.0ff850b8.js.map": "/BreakinEncyclopedia/static/js/main.0ff850b8.js.map"
+    "main.84e0c1ad.js.map": "/BreakinEncyclopedia/static/js/main.84e0c1ad.js.map"
   },
   "entrypoints": [
     "static/css/main.9abee471.css",
-    "static/js/main.0ff850b8.js"
+    "static/js/main.84e0c1ad.js"
   ]
 }
