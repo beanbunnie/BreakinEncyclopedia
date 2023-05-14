@@ -1,8 +1,7 @@
 import React from "react";
 
 import { ArrowSmRightIcon } from "@heroicons/react/outline";
-import { Link as Link1 } from "react-scroll";
-import { Link as Link2 } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import danceImg from "../assets/breakdance.jpg";
 
@@ -32,7 +31,7 @@ const System = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
-          <Link2 to="/Jazz"> Lets go to jazz</Link2>
+          <Link to="/Jazz"> Lets go to jazz</Link>
           <a className="cursor-pointer hover:drop-shadow-cardHover" to="/Jazz">
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
@@ -50,7 +49,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link2
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -60,7 +59,7 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </Link2>
+                </Link>
               </div>
             </div>
           </a>
@@ -85,7 +84,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link2
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -95,7 +94,7 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </Link2>
+                </Link>
               </div>
             </div>
           </a>
@@ -120,7 +119,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link2
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -130,7 +129,7 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </Link2>
+                </Link>
               </div>
             </div>
           </a>
@@ -154,7 +153,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link2
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -164,7 +163,7 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </Link2>
+                </Link>
               </div>
             </div>
           </a>
@@ -188,7 +187,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link2
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -198,12 +197,12 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </Link2>
+                </Link>
               </div>
             </div>
           </a>
 
-          <Link2 className="cursor-pointer hover:drop-shadow-cardHover">
+          <Link className="cursor-pointer hover:drop-shadow-cardHover">
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
                 <div className="w-40 p-2 bg-fuchsia-450 text-white rounded-lg mt-[-4rem]">
@@ -219,7 +218,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link2
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -229,10 +228,10 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </Link2>
+                </Link>
               </div>
             </div>
-          </Link2>
+          </Link>
         </div>
       </div>
     </div>
