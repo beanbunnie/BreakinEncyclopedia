@@ -4,7 +4,7 @@ import { HashRouter, Route } from "react-router-dom";
 // Currently functional using hash
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter>
       <Route path="/" element={<Home />} />
       <Route path="/Jazz" element={<Jazz />} />
       <Route path="/Capoeira" element={<Capoeira />} />
