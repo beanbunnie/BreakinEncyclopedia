@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link as LScroll, animateScroll as scroll } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 import WebFont from "webfontloader";
 
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
