@@ -1,7 +1,7 @@
 import { LindyHop, WestAfrican, Kungfu, Capoeira, Home, Jazz } from "./pages";
 
 import { HashRouter, Routes, Route } from "react-router-dom";
-// Currently functional using hash
+
 function App() {
   return (
     <HashRouter basename="">
