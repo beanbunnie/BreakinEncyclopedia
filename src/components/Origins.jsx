@@ -35,7 +35,7 @@ const System = () => {
             className="cursor-pointer hover:drop-shadow-cardHover"
             to="/Jazz"
           >
-            <Span>
+            <span>
               <div className="bg-white rounded-xl shadow-2xl">
                 <div className="p-8">
                   <div className="w-24 p-2 bg-fuchsia-450 text-white rounded-lg mt-[-4rem]">
@@ -65,7 +65,7 @@ const System = () => {
                   </Link>
                 </div>
               </div>
-            </Span>
+            </span>
           </Link>
 
           <a
