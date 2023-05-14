@@ -1,8 +1,8 @@
 import React from "react";
 
 import { ArrowSmRightIcon } from "@heroicons/react/outline";
-import { Link2 as Link21 } from "react-scroll";
-import { Link2 as Link22 } from "react-router-dom";
+import { Link as Link1 } from "react-scroll";
+import { Link as Link2 } from "react-router-dom";
 
 import danceImg from "../assets/breakdance.jpg";
 
