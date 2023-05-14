@@ -49,17 +49,10 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link
-                  className="cursor-pointer"
-                  to="home"
-                  smooth={true}
-                  duration={500}
-                >
-                  <p className="flex items-center text-fuchsia-450 cursor-pointer">
-                    Learn More
-                    <ArrowSmRightIcon className="w-5 ml-2" />
-                  </p>
-                </Link>
+                <p className="flex items-center text-fuchsia-450 cursor-pointer">
+                  Learn More
+                  <ArrowSmRightIcon className="w-5 ml-2" />
+                </p>
               </div>
             </div>
           </a>
@@ -84,17 +77,10 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link
-                  className="cursor-pointer"
-                  to="home"
-                  smooth={true}
-                  duration={500}
-                >
-                  <p className="flex items-center text-fuchsia-450 cursor-pointer">
-                    Learn More
-                    <ArrowSmRightIcon className="w-5 ml-2" />
-                  </p>
-                </Link>
+                <p className="flex items-center text-fuchsia-450 cursor-pointer">
+                  Learn More
+                  <ArrowSmRightIcon className="w-5 ml-2" />
+                </p>
               </div>
             </div>
           </a>
@@ -119,17 +105,10 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link
-                  className="cursor-pointer"
-                  to="home"
-                  smooth={true}
-                  duration={500}
-                >
-                  <p className="flex items-center text-fuchsia-450 cursor-pointer">
-                    Learn More
-                    <ArrowSmRightIcon className="w-5 ml-2" />
-                  </p>
-                </Link>
+                <p className="flex items-center text-fuchsia-450 cursor-pointer">
+                  Learn More
+                  <ArrowSmRightIcon className="w-5 ml-2" />
+                </p>
               </div>
             </div>
           </a>
@@ -153,17 +132,10 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link
-                  className="cursor-pointer"
-                  to="home"
-                  smooth={true}
-                  duration={500}
-                >
-                  <p className="flex items-center text-fuchsia-450 cursor-pointer">
-                    Learn More
-                    <ArrowSmRightIcon className="w-5 ml-2" />
-                  </p>
-                </Link>
+                <p className="flex items-center text-fuchsia-450 cursor-pointer">
+                  Learn More
+                  <ArrowSmRightIcon className="w-5 ml-2" />
+                </p>
               </div>
             </div>
           </a>
@@ -187,17 +159,10 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link
-                  className="cursor-pointer"
-                  to="home"
-                  smooth={true}
-                  duration={500}
-                >
-                  <p className="flex items-center text-fuchsia-450 cursor-pointer">
-                    Learn More
-                    <ArrowSmRightIcon className="w-5 ml-2" />
-                  </p>
-                </Link>
+                <p className="flex items-center text-fuchsia-450 cursor-pointer">
+                  Learn More
+                  <ArrowSmRightIcon className="w-5 ml-2" />
+                </p>
               </div>
             </div>
           </a>
@@ -218,17 +183,10 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <Link
-                  className="cursor-pointer"
-                  to="home"
-                  smooth={true}
-                  duration={500}
-                >
-                  <p className="flex items-center text-fuchsia-450 cursor-pointer">
-                    Learn More
-                    <ArrowSmRightIcon className="w-5 ml-2" />
-                  </p>
-                </Link>
+                <p className="flex items-center text-fuchsia-450 cursor-pointer">
+                  Learn More
+                  <ArrowSmRightIcon className="w-5 ml-2" />
+                </p>
               </div>
             </div>
           </Link>
