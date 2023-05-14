@@ -6,7 +6,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/Jazz" element={<Jazz />} />
         <Route path="/Capoeira" element={<Capoeira />} />
         <Route path="/Kungfu" element={<Kungfu />} />
