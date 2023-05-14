@@ -31,42 +31,40 @@ const System = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
-          <Link
+          <a
             className="cursor-pointer hover:drop-shadow-cardHover"
-            to="/Jazz"
+            to="/BreakinEncyclopedia/Jazz"
           >
-            <span>
-              <div className="bg-white rounded-xl shadow-2xl">
-                <div className="p-8">
-                  <div className="w-24 p-2 bg-fuchsia-450 text-white rounded-lg mt-[-4rem]">
-                    <h3 className="font-bold text-xl my-4 text-white text-center">
-                      Jazz
-                    </h3>
-                  </div>
-                  <div className="h-card">
-                    <img className="h-64 mx-auto" src={jazzGif} alt="/" />
-                  </div>
-                  <p className="text-gray-600 text-xl">
-                    Jazz dance is a broad style of dance that originated in the
-                    early 20th ...
-                  </p>
+            <div className="bg-white rounded-xl shadow-2xl">
+              <div className="p-8">
+                <div className="w-24 p-2 bg-fuchsia-450 text-white rounded-lg mt-[-4rem]">
+                  <h3 className="font-bold text-xl my-4 text-white text-center">
+                    Jazz
+                  </h3>
                 </div>
-                <div className="bg-slate-100 pl-8 py-4">
-                  <Link
-                    className="cursor-pointer"
-                    to="home"
-                    smooth={true}
-                    duration={500}
-                  >
-                    <p className="flex items-center text-fuchsia-450 cursor-pointer">
-                      Learn More
-                      <ArrowSmRightIcon className="w-5 ml-2" />
-                    </p>
-                  </Link>
+                <div className="h-card">
+                  <img className="h-64 mx-auto" src={jazzGif} alt="/" />
                 </div>
+                <p className="text-gray-600 text-xl">
+                  Jazz dance is a broad style of dance that originated in the
+                  early 20th ...
+                </p>
               </div>
-            </span>
-          </Link>
+              <div className="bg-slate-100 pl-8 py-4">
+                <Link
+                  className="cursor-pointer"
+                  to="home"
+                  smooth={true}
+                  duration={500}
+                >
+                  <p className="flex items-center text-fuchsia-450 cursor-pointer">
+                    Learn More
+                    <ArrowSmRightIcon className="w-5 ml-2" />
+                  </p>
+                </Link>
+              </div>
+            </div>
+          </a>
 
           <a
             className="cursor-pointer hover:drop-shadow-cardHover"

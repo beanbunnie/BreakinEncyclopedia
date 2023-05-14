@@ -1,18 +1,18 @@
 import { LindyHop, WestAfrican, Kungfu, Capoeira, Home, Jazz } from "./pages";
 
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Router, Route } from "react-router-dom";
 // Currently functional using hash
 function App() {
   return (
     <HashRouter basename="/">
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/Jazz" element={<Jazz />} />
-        <Route exact path="/Capoeira" element={<Capoeira />} />
-        <Route exact path="/Kungfu" element={<Kungfu />} />
-        <Route exact path="/WestAfrican" element={<WestAfrican />} />
-        <Route exact path="/LindyHop" element={<LindyHop />} />
-      </Routes>
+      <Router>
+        <Route path="/" element={<Home />} />
+        <Route path="/Jazz" element={<Jazz />} />
+        <Route path="/Capoeira" element={<Capoeira />} />
+        <Route path="/Kungfu" element={<Kungfu />} />
+        <Route path="/WestAfrican" element={<WestAfrican />} />
+        <Route path="/LindyHop" element={<LindyHop />} />
+      </Router>
     </HashRouter>
   );
 }
