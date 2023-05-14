@@ -31,9 +31,9 @@ const System = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
-          <a
+          <Link
             className="cursor-pointer hover:drop-shadow-cardHover"
-            href="/BreakinEncyclopedia/pages/Jazz"
+            to="/Jazz"
           >
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
@@ -64,11 +64,11 @@ const System = () => {
                 </Link>
               </div>
             </div>
-          </a>
+          </Link>
 
           <a
             className="cursor-pointer hover:drop-shadow-cardHover"
-            href="/Capoeira"
+            href="/BreakinEncyclopedia/pages/Capoeira"
           >
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
