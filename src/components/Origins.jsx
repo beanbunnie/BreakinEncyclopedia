@@ -31,10 +31,7 @@ const System = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
-          <a
-            className="cursor-pointer hover:drop-shadow-cardHover"
-            to="/BreakinEncyclopedia/Jazz"
-          >
+          <a className="cursor-pointer hover:drop-shadow-cardHover" to="/Jazz">
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
                 <div className="w-24 p-2 bg-fuchsia-450 text-white rounded-lg mt-[-4rem]">
@@ -68,7 +65,7 @@ const System = () => {
 
           <a
             className="cursor-pointer hover:drop-shadow-cardHover"
-            href="/BreakinEncyclopedia/pages/Capoeira"
+            to="/Capoeira"
           >
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
