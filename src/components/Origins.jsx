@@ -32,7 +32,7 @@ const System = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
-          <Link22 to="/Jazz"> Lets go to jazz</Link22>
+          <Link2 to="/Jazz"> Lets go to jazz</Link2>
           <a className="cursor-pointer hover:drop-shadow-cardHover" to="/Jazz">
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
