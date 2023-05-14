@@ -31,7 +31,7 @@ const System = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">
-          <NPage to="/Jazz"> Lets go to jazz</NPage>
+          <Link to="/Jazz"> Lets go to jazz</Link>
           <a className="cursor-pointer hover:drop-shadow-cardHover" to="/Jazz">
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
@@ -49,7 +49,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <NPage
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -59,7 +59,7 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </NPage>
+                </Link>
               </div>
             </div>
           </a>
@@ -84,7 +84,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <NPage
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -94,7 +94,7 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </NPage>
+                </Link>
               </div>
             </div>
           </a>
@@ -119,7 +119,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <NPage
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -129,7 +129,7 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </NPage>
+                </Link>
               </div>
             </div>
           </a>
@@ -153,7 +153,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <NPage
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -163,7 +163,7 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </NPage>
+                </Link>
               </div>
             </div>
           </a>
@@ -187,7 +187,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <NPage
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -197,12 +197,12 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </NPage>
+                </Link>
               </div>
             </div>
           </a>
 
-          <NPage className="cursor-pointer hover:drop-shadow-cardHover">
+          <Link className="cursor-pointer hover:drop-shadow-cardHover">
             <div className="bg-white rounded-xl shadow-2xl">
               <div className="p-8">
                 <div className="w-40 p-2 bg-fuchsia-450 text-white rounded-lg mt-[-4rem]">
@@ -218,7 +218,7 @@ const System = () => {
                 </p>
               </div>
               <div className="bg-slate-100 pl-8 py-4">
-                <NPage
+                <Link
                   className="cursor-pointer"
                   to="home"
                   smooth={true}
@@ -228,10 +228,10 @@ const System = () => {
                     Learn More
                     <ArrowSmRightIcon className="w-5 ml-2" />
                   </p>
-                </NPage>
+                </Link>
               </div>
             </div>
-          </NPage>
+          </Link>
         </div>
       </div>
     </div>
